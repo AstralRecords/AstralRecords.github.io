@@ -240,6 +240,14 @@ a {
 	text-align: center;
 }
 
+.koop {
+	background-color: #6B232C;
+	color: white;
+	margin: 1em 1em 1em 0;
+	padding: .5em;
+	border-radius:1em;
+}
+
 section.contact {
     text-align: center;
     padding: 1em;}
