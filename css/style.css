@@ -52,6 +52,8 @@ p {
 
 .fm {
 	padding-bottom: 1em;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .site {
