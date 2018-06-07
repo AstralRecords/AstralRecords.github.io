@@ -54,6 +54,7 @@ p {
 	padding-bottom: 1em;
 	margin-right: auto;
 	margin-left: auto;
+	width: 80%;
 }
 
 .site {
@@ -222,14 +223,18 @@ a {
 	color: black;
 }
 
-
+.column  {
+	overflow: hidden;
+}
 
 .column {
     float: left;
-    width: 45%;
-    padding: 10px;
-    min-height: 300px; 
+    width: 40%;
+    padding: 20px;
+    margin-top: 1em;
+    
 }
+
 
 .row:after {
     content: "";
