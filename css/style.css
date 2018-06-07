@@ -47,6 +47,9 @@ p {
 	padding: 1em 0;
 }
 
+
+
+
 .fm {
 	padding-bottom: 1em;
 }
@@ -68,6 +71,7 @@ p {
 
 .main-content {
 	background: white;
+	overflow:auto;
 }
 .masthead {
 	background: #1A1A1A;
@@ -76,7 +80,7 @@ p {
 }
 
 h2.site-title span {
-	border-bottom: 3px solid #FC3839;
+	border-bottom: 3px solid #8B364F;
 	padding-bottom: 3px;
 }
 
@@ -84,6 +88,7 @@ h2.site-title span {
 .sidebar {
 	background: #262626;
 	color: white;
+
 }
 
 a {
@@ -105,21 +110,22 @@ a {
 }
 
 .sidebar a:hover {
-	color: #FC3839;
+	color: #8B364F;
   transition: .5s;
 }
 
-.current {color: #FC3839;}
+.current {color: #8B364F;}
 
 
 .twin {
-	background: #FC3839;
+	background: #8B364F;
 	font-weight: 600;
+	color: white;
 }
 
 
 .twin:last-of-type {
-	background: #3CF7A7;
+	background: #92C445;
 }
 
 .ds {
@@ -163,7 +169,7 @@ a {
 .event {
 	margin-top: 0;
 	padding-top: 0;
-	color: #3CF7A7;
+	color: #92C445;
 }
 
 .news {
@@ -177,7 +183,7 @@ a {
 
 .social a {
 	text-decoration: none;
-	color: #FC3839;
+	color: #8B364F;
 
 }
 
@@ -190,9 +196,22 @@ a {
 
 .flyer {
 	max-width: 65%;
-	margin-left: auto;
+	margin-left: 0px;
 	margin-right: auto;
 	padding-bottom: 1em;
+	float: left;
+
+
+}
+
+.tickets {
+	float: right;
+	background-color: #6B232C;
+	color: white;
+	padding: 1em;}
+
+.tickets:hover {
+	background-color: #244664;
 }
 
 .kopen {
